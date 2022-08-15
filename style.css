@@ -1,0 +1,25 @@
+body {
+  background: #eee;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10%; */
+  align-items: center;
+  margin-left: -160px;
+  margin-top: 550px;
+}
+
+.stick {
+  height: 450px;
+  width: 10px;
+  background: black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#flag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
